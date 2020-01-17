@@ -2,7 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import { ApolloServer } from 'apollo-server-express';
 
-import schema from './shema/types';
+import { schema } from './shema';
 
 const app = express();
 const server = new ApolloServer({ schema });

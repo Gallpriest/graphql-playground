@@ -1,6 +1,6 @@
 import { gql } from 'apollo-server-express';
 
-export default gql`
+export const UserType = gql`
     type User {
         username: String!
         age: Int!

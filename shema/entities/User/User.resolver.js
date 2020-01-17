@@ -4,10 +4,8 @@ const userMe = {
     hobby: 'Front-End',
 }
 
-const resolvers = {
+export const UserResolver = {
     Query: {
         me: () => userMe,
     },
 };
-
-export default resolvers;
